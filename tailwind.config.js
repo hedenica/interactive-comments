@@ -4,7 +4,7 @@ module.exports = {
     './src/**/*.{vue,js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {
+    colors: {
       blue: '#5457b6',
       light_blue: '#c3c4ef',
       dark_blue: '#324152',
@@ -17,7 +17,6 @@ module.exports = {
     },
     fontFamily: {
       sans: ['Rubik'],
-      body: ['Rubik'],
     },
   },
   plugins: [],
